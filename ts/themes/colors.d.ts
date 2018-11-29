@@ -1,0 +1,23 @@
+declare const colors: {
+    gray: string;
+    grayDark: string;
+    grayLight: string;
+    grayLighter: string;
+    grayLightest: string;
+    grayMedium: string;
+    green: string;
+    purple: string;
+    purpleBackground: string;
+    purpleDark: string;
+    purpleLight: string;
+    purpleLighter: string;
+    red: string;
+    redDark: string;
+    redLight: string;
+    turquoise: string;
+    turquoiseDark: string;
+    turquoiseLight: string;
+    white: string;
+    yellow: string;
+};
+export default colors;

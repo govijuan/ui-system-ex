@@ -1,0 +1,62 @@
+{
+  "name": "e-juno-ui",
+  "version": "1.0.0",
+  "description": "e-juno UI components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latoex/e-juno-ui.git"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/e-juno-ui.min.js",
+  "types": "ts",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "coverage": "npm test -- --coverage",
+    "postcoverage": "opn coverage/lcov-report/index.html",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src scripts --ext js,ts,tsx",
+    "build:clean": "rimraf dist es lib ts && node scripts/cleanProxies",
+    "build:ts": "tsc --emitDeclarationOnly",
+    "prebuild": "npm run build:clean && npm run build:ts",
+    "build": "rollup -c && node scripts/makeProxies"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/jest": "^23.3.9",
+    "@types/prop-types": "^15.5.6",
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.0.3",
+    "babel-plugin-styled-components": "^1.8.0",
+    "jest-cli": "^23.6.0",
+    "jest-dom": "^2.1.0",
+    "jest-styled-components": "^6.2.2",
+    "lodash": "^4.17.11",
+    "opn-cli": "^3.1.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.67.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-ignore": "^1.0.4",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "typescript": "3.1.6"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "styled-components": "^4.0.3"
+  }
+}

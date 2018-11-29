@@ -1,0 +1,5 @@
+{
+  "name": "e-juno-ui/es",
+  "private": true,
+  "types": "../ts"
+}
