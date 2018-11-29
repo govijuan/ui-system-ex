@@ -21,5 +21,5 @@ export default [
     // Do not include these peer deps in our bundle
     external: ['react', 'react-dom', 'styled-components'],
   }),
-  createConfig({ pkg, input: 'src/index.ts', umd: true }),
+  createConfig({ pkg, input: 'src/index.ts', umd: false }),
 ];

@@ -24,7 +24,7 @@ const Card: React.SFC<Props> = ({
   </Wrapper>
 );
 
-const Wrapper = styled<Props, 'div'>('div')`
+const Wrapper = styled.div<Props>`
   background-color: ${(props) => props.theme.primary};
   border-radius: 0;
   flex: 1;

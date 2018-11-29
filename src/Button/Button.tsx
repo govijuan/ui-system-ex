@@ -52,7 +52,7 @@ const visibledTypeColors = (
   return colors[property];
 };
 
-const ButtonStyled = styled<Props, 'button'>('button')`
+const ButtonStyled = styled.button<Props>`
   display: flex;
   align-items: center;
   justify-content: center;

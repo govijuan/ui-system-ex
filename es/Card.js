@@ -14,7 +14,7 @@ var Card = function Card(_ref) {
   }, children);
 };
 
-var Wrapper = styled('div').withConfig({
+var Wrapper = styled.div.withConfig({
   displayName: "Card__Wrapper",
   componentId: "a894x1-0"
 })(["background-color:", ";border-radius:0;flex:1;display:flex;flex-direction:", ";overflow:auto;padding:", ";width:", ";"], function (props) {
