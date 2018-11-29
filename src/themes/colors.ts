@@ -5,7 +5,6 @@ const colors = {
   grayLighter: '#F1F2F4',
   grayLightest: '#F8F9FB',
   grayMedium: '#423D4E',
-  green: '#8EFA94',
   purple: '#601DC6',
   purpleBackground: '#A01CEA',
   purpleDark: '#471496',
@@ -19,6 +18,11 @@ const colors = {
   turquoiseLight: '#44FFFD',
   white: '#FFFFFF',
   yellow: '#FFED48',
+  yellowLight: '#FFF173',
+  yellowDark: '#EFDC2D',
+  green: '#3DEC95',
+  greenLight: '#5DFFAF',
+  greenDark: '#33DE89',
 };
 
 export default colors;

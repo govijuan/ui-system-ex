@@ -17,25 +17,32 @@ const dark: ThemeInterface = {
       borderFocus: colors.purpleDark,
     },
     secondary: {
-      text: colors.white,
-      background: colors.purple,
-      backgroundHover: colors.purpleLight,
-      backgroundActive: colors.purpleDark,
-      borderFocus: colors.purpleDark,
+      text: colors.purple,
+      background: colors.white,
+      backgroundHover: colors.grayLighter,
+      backgroundActive: colors.white,
+      borderFocus: colors.grayLight,
     },
-    negative: {
+    red: {
       text: colors.white,
-      background: colors.purple,
-      backgroundHover: colors.purpleLight,
-      backgroundActive: colors.purpleDark,
-      borderFocus: colors.purpleDark,
+      background: colors.red,
+      backgroundHover: colors.redLight,
+      backgroundActive: colors.redDark,
+      borderFocus: colors.redDark,
     },
-    third: {
-      text: colors.white,
-      background: colors.turquoise,
-      backgroundHover: colors.turquoiseLight,
-      backgroundActive: colors.turquoiseDark,
-      borderFocus: colors.turquoiseDark,
+    yellow: {
+      text: colors.gray,
+      background: colors.yellow,
+      backgroundHover: colors.yellowLight,
+      backgroundActive: colors.yellowDark,
+      borderFocus: colors.yellowDark,
+    },
+    green: {
+      text: colors.gray,
+      background: colors.green,
+      backgroundHover: colors.greenLight,
+      backgroundActive: colors.greenDark,
+      borderFocus: colors.greenDark,
     },
     default: {
       text: colors.white,
@@ -43,6 +50,16 @@ const dark: ThemeInterface = {
       backgroundHover: colors.grayLight,
       backgroundActive: colors.grayDark,
       borderFocus: colors.grayDark,
+    },
+  },
+  dropdowns: {
+    primary: {
+      text: colors.white,
+      background: colors.purple,
+    },
+    secondary: {
+      text: colors.purple,
+      background: colors.white,
     },
   },
 };

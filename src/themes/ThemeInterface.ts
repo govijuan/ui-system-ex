@@ -1,10 +1,14 @@
-export interface Button {
+interface Button {
   text: string;
   background: string;
   backgroundHover: string;
   backgroundActive: string;
   borderFocus: string;
-  [key: string]: string;
+}
+
+interface Dropdown {
+  text: string;
+  background: string;
 }
 
 export default interface ThemeInterface {
@@ -17,9 +21,13 @@ export default interface ThemeInterface {
   buttons: {
     primary: Button;
     secondary: Button;
-    negative: Button;
-    third: Button;
+    red: Button;
+    yellow: Button;
+    green: Button;
     default: Button;
-    [key: string]: Button;
+  };
+  dropdowns: {
+    primary: Dropdown;
+    secondary: Dropdown;
   };
 }

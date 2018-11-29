@@ -25,19 +25,26 @@ const light: ThemeInterface = {
       backgroundActive: colors.purpleDark,
       borderFocus: colors.purpleDark,
     },
-    negative: {
+    red: {
       text: colors.white,
-      background: colors.purple,
-      backgroundHover: colors.purpleLight,
-      backgroundActive: colors.purpleDark,
-      borderFocus: colors.purpleDark,
+      background: colors.red,
+      backgroundHover: colors.redLight,
+      backgroundActive: colors.redDark,
+      borderFocus: colors.redDark,
     },
-    third: {
-      text: colors.white,
-      background: colors.purple,
-      backgroundHover: colors.purpleLight,
-      backgroundActive: colors.purpleDark,
-      borderFocus: colors.purpleDark,
+    yellow: {
+      text: colors.gray,
+      background: colors.yellow,
+      backgroundHover: colors.yellowLight,
+      backgroundActive: colors.yellowDark,
+      borderFocus: colors.yellowDark,
+    },
+    green: {
+      text: colors.gray,
+      background: colors.green,
+      backgroundHover: colors.greenLight,
+      backgroundActive: colors.greenDark,
+      borderFocus: colors.greenDark,
     },
     default: {
       text: colors.white,
@@ -45,6 +52,16 @@ const light: ThemeInterface = {
       backgroundHover: colors.grayLight,
       backgroundActive: colors.grayDark,
       borderFocus: colors.grayDark,
+    },
+  },
+  dropdowns: {
+    primary: {
+      text: colors.grayDark,
+      background: colors.turquoise,
+    },
+    secondary: {
+      text: colors.purple,
+      background: colors.white,
     },
   },
 };
