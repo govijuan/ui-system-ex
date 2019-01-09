@@ -1,7 +1,0 @@
-{
-  "name": "e-juno-ui/Card",
-  "private": true,
-  "main": "../lib/Card",
-  "module": "../es/Card",
-  "types": "../ts/Card"
-}

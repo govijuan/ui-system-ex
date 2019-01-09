@@ -1,7 +1,0 @@
-{
-  "name": "e-juno-ui/themes",
-  "private": true,
-  "main": "../lib/themes",
-  "module": "../es/themes",
-  "types": "../ts/themes"
-}
