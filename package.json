@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-knobs": "^4.1.4",
-    "@storybook/react": "^4.1.4",
+    "@storybook/react": "^10.0.7",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "babel-plugin-dynamic-import-webpack": "^1.1.0",
